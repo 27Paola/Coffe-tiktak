@@ -1,10 +1,13 @@
 import React from 'react'
 import { IoBagAddOutline } from 'react-icons/io5';
 import Img4 from "../assets/sal.png";
-import Img5 from "../assets/Nachos.png";
-import Img6 from "../assest/wraps.png";
-import Img7 from "../assest/tostadas.png";
-import Img8 from "../assest/Quesadillas.png";
+import Img5 from '../../assets/Nachos.png';
+import Img6 from '../../assest/wraps.png';
+import Img7 from '../assest/tostadas.png';
+import Img8 from '../../assest/Quesadillas.png';
+import Img9 from '../../assets/Arepa.png';
+import Img10 from '../../assets/Waffle.png';
+import Img11 from '../../assets/Mexicano.png';
 
 const Foods = () => {
     return (
@@ -61,7 +64,7 @@ const Foods = () => {
 
                 <div className='bg-slate-400 rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas'>Arepa con Queso</h3>
-                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src='../src/assets/Arepa.png' alt='Img del producto' />
+                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Img9} alt='Img del producto' />
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg ml-10 font-Bebas'>$4.600</p>
                         <IoBagAddOutline className='text-2xl ml-24' />
@@ -70,7 +73,7 @@ const Foods = () => {
 
                 <div className='bg-slate-400 rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas'>Waffle Italiano</h3>
-                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src='../src/assets/Waffle.png' alt='Img del producto' />
+                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Img10} alt='Img del producto' />
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg ml-10 font-Bebas'>$18.000</p>
                         <IoBagAddOutline className='text-2xl ml-24' />
@@ -79,7 +82,7 @@ const Foods = () => {
 
                 <div className='bg-slate-400 rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas'>Waffle Mexicano</h3>
-                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src='../src/assets/Mexicano.png' alt='Img del producto' />
+                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Img11} alt='Img del producto' />
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg ml-10 font-Bebas'>$18.000</p>
                         <IoBagAddOutline className='text-2xl ml-24' />
