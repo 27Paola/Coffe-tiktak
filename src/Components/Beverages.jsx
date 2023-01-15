@@ -1,6 +1,6 @@
 import React from 'react';
 import { IoBagAddOutline } from 'react-icons/io5';
-import Img  from '../assets/Macadamia.png';
+import Macadamia  from '../assets/Macadamia.png';
 
 const Beverages = () => {
     return (
@@ -16,7 +16,7 @@ const Beverages = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 m-6'>
                 <div className='bg-black col-start-1 rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas text-white'>Macadamia o Crema Irlandesa</h3>
-                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Img} alt='Img del producto' />
+                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Macadamia} alt='Img del producto' />
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg text-white ml-10 font-Bebas'>$10.500</p>
                         <IoBagAddOutline className='text-2xl ml-24 text-white' />
