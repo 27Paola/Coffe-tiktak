@@ -1,6 +1,13 @@
 import React from 'react';
 import { IoBagAddOutline } from 'react-icons/io5';
 import Macadamia  from '../assets/Macadamia.png';
+import Monkey from '../assets/monkey.png';
+import Frape from '../assets/Frape.png';
+import Soda from '../assets/soda.png';
+import Limonada from '../assets/Limonada.png';
+import Cold from '../assets/Cold.png';
+import Milo from '../assets/Milo.png';
+import Frio from '../assets/Frio.png';
 
 const Beverages = () => {
     return (
@@ -25,7 +32,7 @@ const Beverages = () => {
 
                 <div className='bg-black rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas text-white'>Tea Monkey</h3>
-                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src='/src/assets/monkey.png' alt='Img del producto' />
+                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Monkey} alt='Img del producto' />
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg text-white ml-10 font-Bebas'>$8.200</p>
                         <IoBagAddOutline className='text-2xl ml-24 text-white' />
@@ -34,7 +41,7 @@ const Beverages = () => {
 
                 <div className='bg-black rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas text-white'>Frappe</h3>
-                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src='/src/assets/Frape.png' alt='Img del producto' />
+                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Frape} alt='Img del producto' />
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg text-white ml-10 font-Bebas'>$9.800</p>
                         <IoBagAddOutline className='text-2xl ml-24 text-white' />
@@ -43,7 +50,7 @@ const Beverages = () => {
 
                 <div className='bg-black  rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas text-white'>Monkey Soda</h3>
-                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src='/src/assets/soda.png' alt='Img del producto' />
+                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Soda} alt='Img del producto' />
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg text-white ml-10 font-Bebas'>$8.000</p>
                         <IoBagAddOutline className='text-2xl ml-24 text-white' />
@@ -52,7 +59,7 @@ const Beverages = () => {
 
                 <div className='bg-black rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas text-white'>Limonadas</h3>
-                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src='/src/assets/Limonada.png' alt='Img del producto' />
+                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Limonada} alt='Img del producto' />
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg text-white ml-10 font-Bebas'>$7.000</p>
                         <IoBagAddOutline className='text-2xl ml-24 text-white' />
@@ -61,7 +68,7 @@ const Beverages = () => {
 
                 <div className='bg-black  rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas text-white'>Cold Brew</h3>
-                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src='/src/assets/Cold.png' alt='Img del producto' />
+                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Cold} alt='Img del producto' />
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg text-white ml-10 font-Bebas'>$7.000</p>
                         <IoBagAddOutline className='text-2xl ml-24 text-white' />
@@ -70,7 +77,7 @@ const Beverages = () => {
 
                 <div className='bg-black rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas text-white'>Milo Frio</h3>
-                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src='/src/assets/Milo.png' alt='Img del producto' />
+                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Milo} alt='Img del producto' />
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg text-white ml-10 font-Bebas'>$7.000</p>
                         <IoBagAddOutline className='text-2xl ml-24 text-white' />
@@ -79,7 +86,7 @@ const Beverages = () => {
 
                 <div className='bg-black rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas text-white'>Latte Frio</h3>
-                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src='/src/assets/Frio.png' alt='Img del producto' />
+                    <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Frio} alt='Img del producto' />
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg text-white ml-10 font-Bebas'>$7.500</p>
                         <IoBagAddOutline className='text-2xl ml-24 text-white' />
