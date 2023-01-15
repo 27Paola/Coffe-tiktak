@@ -4,6 +4,7 @@ import Categories from '../Components/Categories'
 import Foods from '../Components/Foods'
 import Beverages from '../Components/Beverages'
 import Liquors from '../Components/Liquors'
+import Img1 from '../assets/Principal.png'
 
 const Home = () => {
     return (
@@ -11,7 +12,7 @@ const Home = () => {
             <Navbar />
             <div className='flex flex-row justify-center gap-6 pt-24 p-5 md:grid-cols-2'>
                 <picture>
-                    <img className='rounded-2xl sm:scale-50 md:scale-75 lg:scale-75 xl:scale-90' src='../src/assets/Principal.png' />
+                    <img className='rounded-2xl sm:scale-50 md:scale-75 lg:scale-75 xl:scale-90' src={Img1} />
                 </picture>
             </div>
 
