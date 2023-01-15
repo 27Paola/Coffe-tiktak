@@ -3,13 +3,14 @@ import { FaHome, FaCocktail, FaUtensils } from "react-icons/fa";
 import { IoIceCreamOutline } from "react-icons/io5";
 import { SiBuymeacoffee } from "react-icons/si";
 import { SlPresent } from "react-icons/sl";
-import { MdOutlineOutdoorGrill, MdOutlinePeopleAlt } from "react-icons/md"
-import { GrSchedule } from "react-icons/gr"
-import { BiMenu, BiReceipt } from "react-icons/bi"
+import { MdOutlineOutdoorGrill, MdOutlinePeopleAlt } from "react-icons/md";
+import { GrSchedule } from "react-icons/gr";
+import { BiMenu, BiReceipt } from "react-icons/bi";
 import { Link } from 'react-router-dom';
-import { IoFastFoodOutline } from "react-icons/io5"
-import { RiShoppingCartFill } from 'react-icons/ri'
-import { IoLogoWhatsapp } from 'react-icons/io'
+import { IoFastFoodOutline } from "react-icons/io5";
+import { RiShoppingCartFill } from "react-icons/ri";
+import { IoLogoWhatsapp } from "react-icons/io";
+import Img3 from '../assets/logo-gris.png';
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false)
@@ -110,7 +111,7 @@ const Navbar = () => {
       <section className=' bg-black fixed w-full z-20 h-30'>
         <div className='flex justify-center text-lg diagonal-fractions p-2 text-white'>
           <picture className='flex justify-center w-1/4'>
-            <img className='scale-100 w-40' src='/src/assets/logo-gris.png' />
+            <img className='scale-100 w-40' src={Img3} />
           </picture>
           <div>
             <RiShoppingCartFill className='fixed right-10 top-5 text-slate-400 text-3xl'/>
