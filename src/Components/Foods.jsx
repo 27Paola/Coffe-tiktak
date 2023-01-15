@@ -2,6 +2,12 @@ import React from 'react'
 import { IoBagAddOutline } from 'react-icons/io5';
 import sal from '../assets/sal.png';
 import Nachos from '../assets/Nachos.png';
+import Wraps from '../assets/Wraps.png';
+import tostadas from '../assets/Tostadas.png';
+import Quesadillas from '../assets/Quesadillas.png';
+import Arepa from '../assets/Arepa.png';
+import Waffle from '../assets/Waffle.png';
+import Mexicano from '../assets/Mexicano.png';
 
 const Foods = () => {
     return (
