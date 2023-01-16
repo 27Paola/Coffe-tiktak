@@ -54,10 +54,10 @@ const Navbar = () => {
             </div>
 
             <div className='flex flex-row items-baseline  hover:text-white'>
-              <Link>
+              <a href='#Breakfast'>
                 <FaUtensils className='text-2xl absolute left-8' />
                 <span className='p-8'>Desayunos</span>
-              </Link>
+              </a>
             </div>
 
             <div className='flex flex-row items-baseline hover:text-white'>
