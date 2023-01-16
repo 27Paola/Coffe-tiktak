@@ -20,6 +20,7 @@ const Foods = () => {
                 <div className='bg-slate-400 col-start-1 rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas'>Sandwich de Jamon, Pollo, Cerdo o Atùn</h3>
                     <img className='rounded-2xl h-56 w-full m-auto scale-90' src={sal} alt='Img del producto' />
+                    <p className='font-Abel text-base p-5'>Pan de la casa, artesanal con especias con jamon de pollo o cerdo, queso, lechuga, tomate, espinaca, salsa de la casa acompañado de nachos</p>
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg ml-10 font-Bebas'>$15.000</p>
                         <IoBagAddOutline className='text-2xl ml-24' />
@@ -29,7 +30,8 @@ const Foods = () => {
                 <div className='bg-slate-400 rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas'>Nachos</h3>
                     <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Nachos} alt='Img del producto' />
-                    <div className='grid grid-cols-2 pb-3 '>
+                    <p className='font-Abel text-base p-5'>Base de nachos con queso gratinado, maíz tierno, pico de gallo y salsas de la casa </p>
+                    <div className='grid grid-cols-2 pb-3'>
                         <p className='text-lg ml-10 font-Bebas'>$13.500</p>
                         <IoBagAddOutline className='text-2xl ml-24' />
                     </div>
@@ -38,6 +40,8 @@ const Foods = () => {
                 <div className='bg-slate-400 rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas'>Wraps de Jamon de Pollo, Cerdo o Atùn</h3>
                     <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Wraps} alt='Img del producto' />
+                    <p className='font-Abel text-base p-5'>Tortilla de maiz con jamón de pollo o cerdo, queso, lechuga, tomate, espinaca, salsa de la casa acompañado de nachos o papitas sabor a pollo.
+                    (envueltas tipo burrito)</p>
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg ml-10 font-Bebas'>$13.500</p>
                         <IoBagAddOutline className='text-2xl ml-24' />
@@ -47,6 +51,7 @@ const Foods = () => {
                 <div className='bg-slate-400 rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas'>Tostadas Francesas</h3>
                     <img className='rounded-2xl h-56 w-full m-auto scale-90' src={tostadas} alt='Img del producto' />
+                    <p className='font-Abel text-base p-5'>Tostadas gratinadas con huevo, queso y tocineta.</p>
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg ml-10 font-Bebas'>$15.000</p>
                         <IoBagAddOutline className='text-2xl ml-24' />
@@ -56,6 +61,7 @@ const Foods = () => {
                 <div className='bg-slate-400 rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas'>Quesadillas</h3>
                     <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Quesadillas} alt='Img del producto' />
+                    <p className='font-Abel text-base p-5'>Tortilla de maiz con jamón a tu elección y queso (SALADA) ó Arequipe y queso (DULCE)</p>
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg ml-10 font-Bebas'>$15.000</p>
                         <IoBagAddOutline className='text-2xl ml-24' />
@@ -65,6 +71,7 @@ const Foods = () => {
                 <div className='bg-slate-400 rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas'>Arepa con Queso</h3>
                     <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Arepa} alt='Img del producto' />
+                    <p className='font-Abel text-base p-5'> Contiene una buena cantidad de queso, hechas con los mejores producto.</p>
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg ml-10 font-Bebas'>$4.600</p>
                         <IoBagAddOutline className='text-2xl ml-24' />
@@ -74,6 +81,7 @@ const Foods = () => {
                 <div className='bg-slate-400 rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas'>Waffle Italiano</h3>
                     <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Waffle} alt='Img del producto' />
+                    <p className='font-Abel text-base p-5'>Base de Waffle con espinaca, queso, tomate y jamón </p>
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg ml-10 font-Bebas'>$18.000</p>
                         <IoBagAddOutline className='text-2xl ml-24' />
@@ -83,6 +91,7 @@ const Foods = () => {
                 <div className='bg-slate-400 rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas'>Waffle Mexicano</h3>
                     <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Mexicano} alt='Img del producto' />
+                    <p className='font-Abel text-base p-5'>Base de waffle con lechuga, jamón, queso, pico de gallo, nachos triturados y salsas de la casa</p>
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg ml-10 font-Bebas'>$18.000</p>
                         <IoBagAddOutline className='text-2xl ml-24' />
