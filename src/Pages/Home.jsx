@@ -1,12 +1,17 @@
-import React from 'react'
-import Navbar from '../Components/Navbar'
-import Categories from '../Components/Categories'
-import Foods from '../Components/Foods'
-import Beverages from '../Components/Beverages'
-import Liquors from '../Components/Liquors'
-import Breakfast from '../Components/Breakfast'
-import Principal from '../assets/Principal.png'
-import Desserts from '../Components/Desserts'
+import React from 'react';
+import Navbar from '../Components/Navbar';
+import Categories from '../Components/Categories';
+import Foods from '../Components/Foods';
+import Beverages from '../Components/Beverages';
+import Liquors from '../Components/Liquors';
+import Breakfast from '../Components/Breakfast';
+import Promotions from '../Components/Promotions';
+import Principal from '../assets/Principal.png';
+import Desserts from '../Components/Desserts';
+import Combos from '../Components/Combos';
+import Footer from '../Components/Footer'; 
+import Information from '../Components/Information';
+import Reservations from '../Components/Reservations';
 
 const Home = () => {
     return (
@@ -36,9 +41,13 @@ const Home = () => {
                 <Liquors />
                 <Breakfast />
                 <Desserts />
+                <Combos />
+                <Promotions />
+                <Information/>
+                <Reservations/>
+                <br/>
+                <Footer />
             </section>
-
-           
         </>
     )
 }

@@ -35,7 +35,7 @@ const Beverages = () => {
             </div>
 
 
-            {/*----------------------------BEBIDAS FRIAS----------------------- */}
+            {/*----------------------------COLD DRINKS----------------------- */}
             <div className='flex justify-start pl-10 md:pl-12 lg:pl-20 font-Bebas mt-5'>
                 <h3 className='text-3xl text-white'>Bebidas Frias</h3>
             </div>
@@ -123,7 +123,7 @@ const Beverages = () => {
             </div>
 
 
-            {/*------------------------BEBIDAS CALIENTES-------------- */}
+            {/*------------------------HOT DRINKS-------------- */}
 
             <div className='flex justify-center pt-10'>
                 <h3 className='text-white text-4xl font-Bebas '>Bebidas Caliente</h3>
