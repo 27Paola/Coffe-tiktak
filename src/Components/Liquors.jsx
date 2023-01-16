@@ -16,7 +16,7 @@ import Cerveza from '../assets/cervezas.png'
 const Liquors = () => {
   return (
 
-    <div className='container m-x-auto bg-black rounded-2xl w-11/12 mt-10 pb-5 '>
+    <div id='Liquors' className='container m-x-auto bg-black rounded-2xl w-11/12 mt-10 pb-5 '>
       <div className='flex justify-center col-span-1 md:col-span-2 lg:col-span-4'>
         <h1 className='text-5xl font-Bebas pt-10 text-white'>Licores</h1>
       </div>

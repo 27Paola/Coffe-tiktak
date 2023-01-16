@@ -26,10 +26,10 @@ const Navbar = () => {
           <div className='fixed h-fit pb-40 px-8 py-16 flex flex-col gap-4 z-40 text-3xl bg-black drop-shadow-2xl text-slate-400 font-Bebas'>
 
             <div className='flex flex-row items-baseline hover:text-white'>
-              <Link to="/">
+              <a href='#'>
                 <FaHome className='text-2xl absolute left-8 ' />
                 <span className='p-8'>Inicio</span>
-              </Link>
+              </a>
             </div>
 
             <div className='flex flex-row items-baseline hover:text-white'>

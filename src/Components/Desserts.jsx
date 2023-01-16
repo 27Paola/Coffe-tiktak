@@ -21,7 +21,7 @@ const Desserts = () => {
                 <h1 className='text-5xl font-Bebas pt-10'>Postres</h1>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 m-6'>
+            <div id='Desserts' className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 m-6'>
                 <div className='bg-slate-400 col-start-1 rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas'>Copa TIK TAK</h3>
                     <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Postre} alt='Img del producto' />

@@ -6,8 +6,8 @@ import Informacion3 from '../assets/informacion3.png';
 
 const Information = () => {
     return (
-        <div className='container m-x-auto bg-white rounded-2xl w-11/12 mt-10 pb-5 '>
-            <div className='flex justify-center col-span-1 md:col-span-2 lg:col-span-4'>
+        <div  className='container m-x-auto bg-white rounded-2xl w-11/12 mt-10 pb-5 '>
+            <div id='Information' className='flex justify-center col-span-1 md:col-span-2 lg:col-span-4'>
                 <h1 className='text-5xl font-Bebas pt-10'>Màs Informaciòn</h1>
             </div>
             <div>
