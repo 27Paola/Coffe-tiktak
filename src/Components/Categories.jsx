@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Categories = () => {
     return (
@@ -20,25 +19,25 @@ const Categories = () => {
                         <span className='flex flex-row justify-center p-2 px-3 text-21l bg-white text-black rounded-xl md:text-3xl lg:text-3xl'>Bebidas</span>
                     </a>
 
-                    <Link >
+                    <a id='Liquors'>
                         <span className='flex flex-row justify-center p-2 px-3 text-1xl bg-white text-black rounded-xl md:text-3xl lg:text-3xl'>Licores</span>
-                    </Link>
+                    </a>
 
-                    <Link >
+                    <a>
                         <span className='flex flex-row justify-center p-2 px-3 text-1xl bg-white text-black rounded-xl md:text-3xl lg:text-3xl'>Desayunos</span>
-                    </Link>
+                    </a>
 
-                    <Link >
+                    <a >
                         <span className='flex flex-row justify-center p-2 px-3 text-1xl bg-white text-black rounded-xl md:text-3xl lg:text-3xl'>Postres</span>
-                    </Link>
+                    </a>
 
-                    <Link >
+                    <a >
                         <span className='flex flex-row justify-center p-2 px-3 text-1xl bg-white text-black rounded-xl md:text-3xl lg:text-3xl'>Combos</span>
-                    </Link>
+                    </a>
 
-                    <Link>
+                    <a>
                         <span className='flex flex-row justify-center p-2 px-3 text-1xl bg-white text-black rounded-xl md:text-3xl lg:text-3xl'>Promociones</span>
-                    </Link>
+                    </a>
                 </div>
 
 
