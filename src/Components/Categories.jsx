@@ -23,7 +23,7 @@ const Categories = () => {
                         <span className='flex flex-row justify-center p-2 px-3 text-1xl bg-white text-black rounded-xl md:text-3xl lg:text-3xl'>Licores</span>
                     </a>
 
-                    <a>
+                    <a id='Desserts'>
                         <span className='flex flex-row justify-center p-2 px-3 text-1xl bg-white text-black rounded-xl md:text-3xl lg:text-3xl'>Desayunos</span>
                     </a>
 

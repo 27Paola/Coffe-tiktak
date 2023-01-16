@@ -6,6 +6,7 @@ import Beverages from '../Components/Beverages'
 import Liquors from '../Components/Liquors'
 import Breakfast from '../Components/Breakfast'
 import Principal from '../assets/Principal.png'
+import Desserts from '../Components/Desserts'
 
 const Home = () => {
     return (
@@ -34,6 +35,7 @@ const Home = () => {
                 <Beverages />
                 <Liquors />
                 <Breakfast />
+                <Desserts />
             </section>
 
            

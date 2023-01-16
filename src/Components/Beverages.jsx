@@ -142,7 +142,7 @@ const Beverages = () => {
                 <div className='bg-white rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas text-black'>Latte Macadamia</h3>
                     <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Latte} alt='Img del producto' />
-                    <p className='font-Abel text-base p-5 text-black'>Bebida nacida en Italia, preparada con café expreso y leche montada con vapor para darle cremosidad.</p>
+                    <p className='font-Abel text-base p-5 text-black'>Bebida clásica italiana compuesta por expresso de café Tik Tak y leche fresca.</p>
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg text-black ml-10 font-Bebas'>$6.600</p>
                         <IoBagAddOutline className='text-2xl ml-24 text-black' />
@@ -162,7 +162,7 @@ const Beverages = () => {
                 <div className='bg-white rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas text-black'>Latte de Crema Irlandesa</h3>
                     <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Irlandesa} alt='Img del producto' />
-                    <p className='font-Abel text-base p-5 text-black'>Bebida nacida en Italia, preparada con café expreso y leche montada con vapor para darle cremosidad.</p>
+                    <p className='font-Abel text-base p-5 text-black'>Bebida clásica italiana compuesta por expresso de café Tik Tak y leche fresca.</p>
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg text-black ml-10 font-Bebas'>$6.500</p>
                         <IoBagAddOutline className='text-2xl ml-24 text-black' />
@@ -172,7 +172,7 @@ const Beverages = () => {
                 <div className='bg-white rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas text-black'>Espreso</h3>
                     <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Espreso} alt='Img del producto' />
-                    <p className='font-Abel text-base p-5 text-black'>Bebida nacida en Italia, preparada con café expreso y leche montada con vapor para darle cremosidad.</p>
+                    <p className='font-Abel text-base p-5 text-black'>Preparación tradicional italiana. Se caracteriza por su rápida preparación a una alta presión y por un sabor y textura más concentrados.</p>
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg text-black ml-10 font-Bebas'>$3.200</p>
                         <IoBagAddOutline className='text-2xl ml-24 text-black' />
@@ -182,7 +182,7 @@ const Beverages = () => {
                 <div className='bg-white rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas text-black'>Latte</h3>
                     <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Cafe} alt='Img del producto' />
-                    <p className='font-Abel text-base p-5 text-black'>Bebida nacida en Italia, preparada con café expreso y leche montada con vapor para darle cremosidad.</p>
+                    <p className='font-Abel text-base p-5 text-black'>Bebida clásica italiana compuesta por expresso de café Tik Tak y leche fresca.</p>
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg text-black ml-10 font-Bebas'>$6.600</p>
                         <IoBagAddOutline className='text-2xl ml-24 text-black' />
@@ -202,7 +202,7 @@ const Beverages = () => {
                 <div className='bg-white rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas text-black'>Mocka</h3>
                     <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Mocka} alt='Img del producto' />
-                    <p className='font-Abel text-base p-5 text-black'>Bebida nacida en Italia, preparada con café expreso y leche montada con vapor para darle cremosidad.</p>
+                    <p className='font-Abel text-base p-5 text-black'>Un tercio de espresso y dos tercios de leche vaporizada, pero se añade una parte de chocolate.</p>
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg text-black ml-10 font-Bebas'>$6.200</p>
                         <IoBagAddOutline className='text-2xl ml-24 text-black' />
@@ -212,7 +212,7 @@ const Beverages = () => {
                 <div className='bg-white rounded-2xl'>
                     <h3 className='text-2xl p-3 text-center font-Bebas text-black'>Mono (Tinto)</h3>
                     <img className='rounded-2xl h-56 w-full m-auto scale-90' src={Tinto} alt='Img del producto' />
-                    <p className='font-Abel text-base p-5 text-black'>Bebida nacida en Italia, preparada con café expreso y leche montada con vapor para darle cremosidad.</p>
+                    <p className='font-Abel text-base p-5 text-black'>Preparación típica colombiana. Café espresso en agua caliente.</p>
                     <div className='grid grid-cols-2 pb-3 '>
                         <p className='text-lg text-black ml-10 font-Bebas'>$3.000</p>
                         <IoBagAddOutline className='text-2xl ml-24 text-black' />
