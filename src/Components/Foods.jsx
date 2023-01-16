@@ -12,8 +12,8 @@ import Mexicano from '../assets/Mexicano.png';
 const Foods = () => {
     return (
         <div className='container m-x-auto bg-gray-50 rounded-2xl w-11/12 mt-10 pb-5 '>
-            <div className='flex justify-center col-span-1 md:col-span-2 lg:col-span-4'>
-                <h1 className='text-5xl font-Bebas pt-10'>Comidas</h1>
+            <div  className='flex justify-center col-span-1 md:col-span-2 lg:col-span-4'>
+                <h1 id='Foods' className='text-5xl font-Bebas pt-10'>Comidas</h1>
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7 m-6'>

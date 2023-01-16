@@ -26,10 +26,10 @@ const Navbar = () => {
           <div className='fixed h-fit pb-40 px-8 py-16 flex flex-col gap-4 z-40 text-3xl bg-black drop-shadow-2xl text-slate-400 font-Bebas'>
 
             <div className='flex flex-row items-baseline hover:text-white'>
-              <Link to="/">
+              <a href='#'>
                 <FaHome className='text-2xl absolute left-8 ' />
                 <span className='p-8'>Inicio</span>
-              </Link>
+              </a>
             </div>
 
             <div className='flex flex-row items-baseline hover:text-white'>
@@ -61,51 +61,44 @@ const Navbar = () => {
             </div>
 
             <div className='flex flex-row items-baseline hover:text-white'>
-              <Link>
+              <a href='#Desserts'>
                 <IoIceCreamOutline className='text-2xl absolute left-8' />
                 <span className='p-8'>Postres</span>
-              </Link>
+              </a>
             </div>
 
             <div className='flex flex-row items-baseline  hover:text-white'>
-              <Link>
+              <a href='#Promotions'>
                 <SlPresent className='text-2xl absolute left-8' />
                 <span className='p-8'>Promociones</span>
-              </Link>
+              </a>
             </div>
 
             <div className='flex flex-row items-baseline hover:text-white'>
-              <Link>
+              <a href='#Combos'>
                 <MdOutlineOutdoorGrill className='text-2xl absolute left-8' />
                 <span className='p-8'>Combos</span>
-              </Link>
+              </a>
             </div>
 
             <br />
 
             <div className='flex flex-row items-baseline hover:text-white'>
-              <Link>
+              <a href='#Information'>
                 <MdOutlinePeopleAlt className='text-2xl absolute left-8' />
                 <span className='p-8'>Mas Informacion</span>
-              </Link>
+              </a>
             </div>
 
             <div className='flex flex-row items-baseline hover:text-white'>
-              <Link>
+              <a href='#Reservations'>
                 <GrSchedule className='text-2xl absolute left-8 bg-slate-400' />
                 <span className='p-8'>Reserva</span>
-              </Link>
+              </a>
             </div>
-
-            <div className='flex flex-row items-baseline hover:text-white'>
-              <Link>
-                <BiReceipt className='text-2xl absolute left-8' />
-                <span className='p-8'>Formulario</span>
-              </Link>
-            </div>
-
           </div>
-        )}
+        )
+        }
       </div>
 
       <section className=' bg-black fixed w-full z-20 h-30'>
@@ -114,7 +107,7 @@ const Navbar = () => {
             <img className='scale-100 w-40' src={Img3} />
           </picture>
           <div>
-            <RiShoppingCartFill className='fixed right-10 top-5 text-slate-400 text-3xl'/>
+            <RiShoppingCartFill className='fixed right-10 top-5 text-slate-400 text-3xl' />
           </div>
         </div>
       </section>
